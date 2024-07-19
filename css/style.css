@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+.titleIndex {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin: 25px;
+}
+
+.itemIndex {
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+}
+.itemIndex img {
+  height: 60px;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  gap: 4px;
+  width: 70%;
+}
+.infoItem h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: black;
+  text-decoration: underline black;
+}
+.infoItem p {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0;
+  color: black;
+}
+
+.productosTitle {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 45px;
+  margin: 20px;
+}
+
+.productosSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  padding-top: 0;
+}
+
+.postNav {
+  height: 20px;
+  background-color: rgb(219, 219, 219);
+}
+
+nav {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 5%;
+}
+
+.bi-list {
+  width: 30px;
+}
+
+.logo {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5607843137);
+  border-radius: 50%;
+}
+
+.dropMenu {
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+  border: 1.5px rgba(0, 0, 0, 0.5607843137) solid;
+}
+
+.dropMenu:focus {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 425px) {
+  nav {
+    padding: 15px;
+  }
+}
+.cardProducto {
+  width: 45%;
+  height: 100%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  margin-bottom: 20px;
+  box-shadow: -7px 7px 0px 0px #180f06;
+  -webkit-box-shadow: -7px 7px 0px 0px #180f06;
+  -moz-box-shadow: -7px 7px 0px 0px #180f06;
+}
+.cardProducto img {
+  width: 100%;
+  border-radius: 5px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.infoProducto {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3px;
+}
+
+.tituloProducto {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.descProducto {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.precio {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.pastas {
+  height: 100%;
+}
+.pastas img {
+  height: 45%;
+}
+
+.bS {
+  height: 220px;
+}
+.bS img {
+  height: 50%;
+}
+
+.vn {
+  width: 60%;
+}
+
+.dest {
+  color: red;
+}
+
+@media (min-width: 500px) {
+  .cardProducto {
+    width: 27%;
+    height: 300px;
+  }
+  .cardProducto img {
+    height: 50%;
+  }
+}
+footer {
+  background-color: #180f06;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+  align-self: flex-end;
+}
+footer p {
+  color: white;
+  opacity: 50%;
+  filter: brightness(80%);
+  margin: 0;
+}
+
+.logoFooter {
+  width: 40px;
+  opacity: 50%;
+  filter: brightness(80%);
+}
+
+.redesFooter {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  gap: 10px;
+}
+.redesFooter img {
+  width: 30px;
+  opacity: 50%;
+  filter: brightness(80%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html, body {
+  background-image: url(../multimedia/backgrounds/back2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+u {
+  text-decoration: underline black;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,79 @@
+.cardProducto {
+    width: 45%;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-shadow: -7px 7px 0px 0px #180f06;
+    -webkit-box-shadow: -7px 7px 0px 0px #180f06;
+    -moz-box-shadow: -7px 7px 0px 0px #180f06;
+    img {
+        width: 100%;
+        border-radius: 5px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+.infoProducto {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.tituloProducto {
+    margin: 0;
+    font-family: $font1;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.descProducto {
+    margin: 0;
+    font-family: $font1;
+    font-size: 15px;
+}
+
+.precio {
+    margin: 0;
+    font-family: $font1;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.pastas {
+    height: 100%;
+    img {
+        height: 45%;
+    }
+}
+
+.bS {
+    height: 220px;
+    img {
+        height: 50%;
+    }
+}
+
+.vn {
+    width: 60%;
+}
+
+.dest {
+    color: red;
+}
+
+@media(min-width: 500px) {
+    .cardProducto {
+        width: 27%;
+        height: 300px;
+        img {
+            height: 50%;
+        }
+    }
+}
